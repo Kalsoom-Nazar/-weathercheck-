@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+</head>
+<body>
+
+  <h2>Check Weather</h2>
+  
+  <input type="text" id="cityInput" placeholder="Enter city name" />
+  <button onclick="getWeather()">Get Weather</button>
+  
+  <h3 id="weatherResult"></h3>
+
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet"> -->
+  <link href="css/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text-xl font-bold mb-4">Weather App</h1>
+    <input id="cityInput" type="text" placeholder="Enter city name" class="mb-4 p-2 border rounded">
+    <button onclick="getWeather()" class="mb-4 p-2 bg-blue-500 text-white rounded">Get Weather</button>
+    <div id="weatherResult" class="text-lg font-semibold"></div>
+  </div>
+
+  
+  
+</body>
+</html>
+
